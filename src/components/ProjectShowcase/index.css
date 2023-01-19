@@ -1,0 +1,85 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.nav-container {
+  background-color: #f1f5f9;
+  padding: 15px 100px;
+}
+
+.web-logo {
+  width: 170px;
+}
+
+.select {
+  width: 52%;
+  margin-left: 100px;
+  margin-top: 40px;
+  max-width: 530px;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #475569;
+  font-weight: 450;
+  outline: none;
+}
+
+.option {
+  color: #475569;
+  font-weight: 450;
+}
+
+.project-list {
+  list-style-type: none;
+  margin-left: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+}
+
+.failure-image {
+  width: 450px;
+}
+
+.failure-head {
+  color: #475569;
+  font-size: 37px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.desc {
+  color: #64748b;
+  font-size: 16px;
+  font-weight: 450;
+  margin-bottom: 15px;
+}
+
+.fail-btn {
+  background-color: #328af2;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 30px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
